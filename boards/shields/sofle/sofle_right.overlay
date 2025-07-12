@@ -1,5 +1,4 @@
 &i2c1 {
-    compatible = "nordic,nrf-twi";
     status = "okay";
     scl-pin = <26>;
     sda-pin = <27>;
@@ -21,5 +20,6 @@
         contrast = <127>;
         vcom-deselect = <0>;
         i2c-max-frequency = <400000>;
+        status = "okay";
     };
 };
